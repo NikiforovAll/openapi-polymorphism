@@ -1,0 +1,7 @@
+###
+GET {{url}}/v1/composite/
+Accept: application/json
+
+###
+GET {{url}}/v2/composite/
+Accept: application/json
