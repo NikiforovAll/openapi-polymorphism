@@ -19,13 +19,13 @@ services.AddSwaggerGen(options =>
 });
 ```
 
-OpenAPI without:
+Without:
 
-![with-open-api](/assets/without-open-api.png)
+![with-open-api](./assets/without-openapi.png)
 
-OpenAPI with:
+With:
 
-![with-open-api](/assets/with-open-api.png)
+![with-open-api](./assets/with-openapi.png)
 
 Without `JsonDerivedType`:
 
