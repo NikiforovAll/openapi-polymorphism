@@ -79,8 +79,8 @@ public class PolymorphicTypeResolver : DefaultJsonTypeInfoResolver
     {
         JsonTypeInfo jsonTypeInfo = base.GetTypeInfo(type, options);
 
-        Type basePointType = typeof(Component);
-        if (jsonTypeInfo.Type == basePointType)
+        Type baseType = typeof(Component);
+        if (jsonTypeInfo.Type == baseType)
         {
             jsonTypeInfo.PolymorphismOptions = new JsonPolymorphismOptions
             {
