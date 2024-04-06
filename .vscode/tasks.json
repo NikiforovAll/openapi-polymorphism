@@ -25,9 +25,7 @@
             "args": [
                 "watch",
                 "run",
-                "--non-interactive",
-                "--project",
-                "${workspaceFolder}/src/API/"
+                "--non-interactive"
             ],
             "options": {
                 "env": {
